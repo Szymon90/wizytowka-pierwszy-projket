@@ -1,0 +1,248 @@
+@media screen and (max-width: 1050px) {
+    .s2 {
+        margin-right: 0;
+    }
+
+    .s3 {
+        margin-left: 0;
+    }
+
+    .s4 {
+        margin-right: 7px;
+    }
+
+    h1 {
+        font-size: 20px;
+        top: 17%;
+        right: 0%;
+    }
+
+    .socialMedia {
+        top: 55%;
+        width: 250px;
+    }
+
+    .basicIinformation {
+        margin-left: 40px;
+
+    }
+
+    .circleFoto {
+        left: -585px;
+    }
+
+    .menu div:nth-child(odd)::after {
+        content: none;
+
+    }
+
+    .menu div:nth-child(even)::after {
+        content: none;
+    }
+
+    .menu div:hover {
+        background-color: #EDE1A5;
+        color: #1E2126;
+    }
+
+    .shortAboutMe span {
+        font-size: 18px;
+        right: 3%;
+        top: 8%;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    h1 {
+        font-size: 16px;
+        top: 23%;
+        right: -9%;
+    }
+
+    .socialMedia {
+        top: 48%;
+        width: 233px;
+    }
+
+    .circleFoto {
+
+        left: -528px
+    }
+
+    .basicIinformation span {
+
+        font-size: 18px;
+    }
+
+    .shortAboutMe span {
+        font-size: 17px;
+        right: 0%;
+        top: 8%;
+    }
+
+
+}
+
+@media screen and (max-width: 750px) {
+    .mySkil {
+        height: 900px;
+        flex-wrap: wrap;
+    }
+
+    .quotation {
+        display: none
+    }
+
+    .foto {
+        animation: none;
+        background-position: center;
+
+
+    }
+
+    .baner {
+        height: 50vh;
+    }
+
+    .mobile {
+        display: block;
+        position: absolute;
+        top: 20%;
+        height: 90px;
+        width: 100%;
+        background-color: black;
+        opacity: 80%;
+        color: #37BED2;
+    }
+
+    .mobile p {
+        color: #37BED2;
+        opacity: 100%;
+        font-size: 30px;
+        font-family: 'Fira Code', monospace;
+        text-align: center;
+    }
+
+    .circleFoto {
+        left: -395px;
+    }
+
+    .abautMe {
+        position: relative;
+        display: flex;
+        height: 700px;
+        flex-wrap: wrap;
+    }
+
+    .circleFoto {
+        left: -81px;
+        top: -349px;
+    }
+
+    .shortAboutMe {
+        left: 61px;
+
+    }
+
+    .shortAboutMe span {
+        font-size: 20px;
+        right: 4%;
+        top: 4%;
+    }
+
+    .basicIinformation span {
+
+        font-size: 26px;
+        top: 65px;
+
+    }
+
+    #envelope {
+        left: 63%;
+        top: 38%
+    }
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        width: 100vw;
+
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .menu {
+        width: 100vw;
+        left: 0;
+    }
+
+    .s1 {
+        margin-left: 5px;
+    }
+
+    .basicIinformation {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 0;
+        top: 61px;
+        left: 13px;
+    }
+
+
+    .abautMe {
+        height: 832px;
+    }
+
+    .circleFoto {
+        position: absolute;
+        left: 70%;
+        top: 17%;
+        height: 120px;
+        width: 120px;
+    }
+
+    .shortAboutMe {
+        position: absolute;
+        top: 365px;
+        left: 0;
+        width: 444px;
+    }
+
+    .shortAboutMe span {
+        font-size: 17px;
+        right: -1%;
+        top: 8%;
+    }
+
+
+
+    .mySkil {
+        height: 1411px;
+    }
+
+    .mySkil {
+        height: 1525px;
+    }
+
+    .contact {
+        flex-direction: column;
+        height: 850px;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .fromZone {
+        width: 100%;
+        height: 400px;
+
+    }
+
+
+
+}
